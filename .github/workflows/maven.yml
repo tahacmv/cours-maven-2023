@@ -26,6 +26,7 @@ jobs:
       with:
         java-version: '18'
         distribution: 'temurin'
+        maven-version: '3.10.1'
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file coffee-machine/pom.xml
