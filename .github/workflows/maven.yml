@@ -29,3 +29,12 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file coffee-machine/pom.xml
+      
+    - name: Run Tests and Generate JaCoCo Report
+      run: mvn clean verify
+
+    - name: Upload JaCoCo Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: jacoco-report
+        path: target/site/jacoco
