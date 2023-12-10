@@ -31,7 +31,7 @@ jobs:
       run: mvn -B package --file coffee-machine/pom.xml
       
     - name: Run Tests and Generate JaCoCo Report
-      run: mvn clean verify
+      run: mvn clean verify --file coffee-machine/pom.xml
 
     - name: Upload JaCoCo Report
       uses: actions/upload-artifact@v2
