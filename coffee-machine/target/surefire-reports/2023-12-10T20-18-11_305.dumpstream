@@ -1,0 +1,5 @@
+# Created at 2023-12-10T20:18:11.593
+Boot Manifest-JAR contains absolute paths in classpath 'B:\work\qualite logicielle\cours-maven-2023\coffee-machine\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

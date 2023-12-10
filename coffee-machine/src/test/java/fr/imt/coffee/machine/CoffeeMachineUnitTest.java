@@ -117,8 +117,8 @@ public class CoffeeMachineUnitTest {
         //paramètre n'est pas vide
         //On teste à la fois le type d'exception levée mais aussi le message de l'exception
         Assertions.assertThrows(CupNotEmptyException.class, ()->{
-                coffeeMachineUnderTest.makeACoffee(mockCup, CoffeeType.MOKA);
-            });
+            coffeeMachineUnderTest.makeACoffee(mockCup, CoffeeType.MOKA);
+        });
     }
 
     @AfterEach
