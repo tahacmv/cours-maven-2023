@@ -51,16 +51,16 @@ public class CoffeeMachine {
      * RAZ de la machine quand elle est en défaut
      */
     public void reset(){
-<span class="nc" id="L54">        isOutOfOrder = false;</span>
-<span class="nc" id="L55">    }</span>
+<span class="fc" id="L54">        isOutOfOrder = false;</span>
+<span class="fc" id="L55">    }</span>
 
     /**
      * Ajoute de l'eau dans le réservoir
      * @param waterVolume Volume d'eau en litres à ajouter
      */
     public void addWaterInTank(double waterVolume){
-<span class="nc" id="L62">        this.waterTank.increaseVolumeInTank(waterVolume);</span>
-<span class="nc" id="L63">    }</span>
+<span class="fc" id="L62">        this.waterTank.increaseVolumeInTank(waterVolume);</span>
+<span class="fc" id="L63">    }</span>
 
     public void addCoffeeInBeanTank(double coffeeVolume, CoffeeType coffeeType){
 <span class="nc" id="L66">        beanTank.increaseCoffeeVolumeInTank(coffeeVolume, coffeeType);</span>
@@ -83,112 +83,115 @@ public class CoffeeMachine {
      * @throws CannotMakeCremaWithSimpleCoffeeMachine Exception levée lorsque vous souhaitez faire un café type Crema avec un une machine classique
      */
     public CoffeeContainer makeACoffee(Container container, CoffeeType coffeeType) throws LackOfWaterInTankException, InterruptedException, MachineNotPluggedException, CupNotEmptyException, CoffeeTypeCupDifferentOfCoffeeTypeTankException, CannotMakeCremaWithSimpleCoffeeMachine {
-<span class="pc bpc" id="L86" title="1 of 2 branches missed.">        if(!isPlugged){</span>
-<span class="nc" id="L87">            throw new MachineNotPluggedException(&quot;You must plug your coffee machine.&quot;);</span>
+<span class="fc bfc" id="L86" title="All 2 branches covered.">        if(!isPlugged){</span>
+<span class="fc" id="L87">            throw new MachineNotPluggedException(&quot;You must plug your coffee machine.&quot;);</span>
         }
 
-<span class="pc bpc" id="L90" title="1 of 2 branches missed.">        if (waterTank.getActualVolume() &lt; container.getCapacity()){</span>
-<span class="nc" id="L91">            throw new LackOfWaterInTankException(&quot;You must add more water in the water tank.&quot;);</span>
+        /**
+         * Tirage aléatoire d'un nombre en suivant une loi normale (loi régissant les pannes).
+         * Permet de simuler une panne sur la cafetière. Probabilité d'une panne d'environ 32% (1*Omega)
+         * Si la valeur absolue du double tiré est supérieure ou égale à 1 alors une on considère une panne
+         */
+
+        // coffeeMachineFailure();
+
+<span class="fc bfc" id="L98" title="All 2 branches covered.">        if(isOutOfOrder){</span>
+<span class="fc" id="L99">            logger.warn(&quot;The machine is out of order. Please reset the coffee machine&quot;);</span>
+<span class="fc" id="L100">            return null;</span>
         }
 
-<span class="pc bpc" id="L94" title="1 of 2 branches missed.">        if (!container.isEmpty()){</span>
-<span class="fc" id="L95">            throw new CupNotEmptyException(&quot;The container given is not empty.&quot;);</span>
+<span class="fc bfc" id="L103" title="All 2 branches covered.">        if (waterTank.getActualVolume() &lt; container.getCapacity()){</span>
+<span class="fc" id="L104">            throw new LackOfWaterInTankException(&quot;You must add more water in the water tank.&quot;);</span>
         }
 
-<span class="nc bnc" id="L98" title="All 2 branches missed.">        if(coffeeType != this.beanTank.getBeanCoffeeType()){</span>
-<span class="nc" id="L99">            throw new CoffeeTypeCupDifferentOfCoffeeTypeTankException(&quot;The type of coffee to be made in the cup is different from that in the tank.&quot;);</span>
+<span class="fc bfc" id="L107" title="All 2 branches covered.">        if (!container.isEmpty()){</span>
+<span class="fc" id="L108">            throw new CupNotEmptyException(&quot;The container given is not empty.&quot;);</span>
         }
 
-<span class="nc" id="L102">        coffeeMachineFailure();</span>
-
-<span class="nc bnc" id="L104" title="All 2 branches missed.">        if(isOutOfOrder){</span>
-<span class="nc" id="L105">            logger.warn(&quot;The machine is out of order. Please reset the coffee machine&quot;);</span>
-<span class="nc" id="L106">            return null;</span>
+<span class="fc bfc" id="L111" title="All 2 branches covered.">        if(coffeeType != this.beanTank.getBeanCoffeeType()){</span>
+<span class="fc" id="L112">            throw new CoffeeTypeCupDifferentOfCoffeeTypeTankException(&quot;The type of coffee to be made in the cup is different from that in the tank.&quot;);</span>
         }
 
-<span class="nc bnc" id="L109" title="All 2 branches missed.">        if(coffeeType.toString().contains(&quot;_CREMA&quot;)){</span>
-<span class="nc" id="L110">            throw new CannotMakeCremaWithSimpleCoffeeMachine(&quot;You cannot make an espresso with a CoffeeMachine, please use EspressoCoffeeMachine&quot;);</span>
+
+<span class="fc bfc" id="L116" title="All 2 branches covered.">        if(coffeeType.toString().contains(&quot;_CREMA&quot;)){</span>
+<span class="fc" id="L117">            throw new CannotMakeCremaWithSimpleCoffeeMachine(&quot;You cannot make an espresso with a CoffeeMachine, please use EspressoCoffeeMachine&quot;);</span>
         }
 
-<span class="nc" id="L113">        electricalResistance.waterHeating(container.getCapacity());</span>
-<span class="nc" id="L114">        waterPump.pumpWater(container.getCapacity(), waterTank);</span>
-<span class="nc" id="L115">        coffeeGrinder.grindCoffee(this.beanTank);</span>
+<span class="fc" id="L120">        electricalResistance.waterHeating(container.getCapacity());</span>
+<span class="fc" id="L121">        waterPump.pumpWater(container.getCapacity(), waterTank);</span>
+<span class="fc" id="L122">        coffeeGrinder.grindCoffee(this.beanTank);</span>
 
-<span class="nc" id="L117">        CoffeeContainer coffeeContainer = null;</span>
-<span class="nc bnc" id="L118" title="All 2 branches missed.">        if(container instanceof Cup)</span>
-<span class="nc" id="L119">            coffeeContainer = new CoffeeCup(container, coffeeType);</span>
-<span class="nc bnc" id="L120" title="All 2 branches missed.">        if(container instanceof Mug)</span>
-<span class="nc" id="L121">            coffeeContainer = new CoffeeMug((Mug) container, coffeeType);</span>
+<span class="fc" id="L124">        CoffeeContainer coffeeContainer = null;</span>
+<span class="fc bfc" id="L125" title="All 2 branches covered.">        if(container instanceof Cup)</span>
+<span class="fc" id="L126">            coffeeContainer = new CoffeeCup(container, coffeeType);</span>
+<span class="fc bfc" id="L127" title="All 2 branches covered.">        if(container instanceof Mug)</span>
+<span class="fc" id="L128">            coffeeContainer = new CoffeeMug((Mug) container, coffeeType);</span>
 
-<span class="nc" id="L123">        coffeeContainer.setEmpty(true);</span>
-<span class="nc" id="L124">        return coffeeContainer;</span>
+<span class="fc" id="L130">        coffeeContainer.setEmpty(true);</span>
+<span class="fc" id="L131">        return coffeeContainer;</span>
     }
 
-    /**
-     * Tirage aléatoire d'un nombre en suivant une loi normale (loi régissant les pannes).
-     * Permet de simuler une panne sur la cafetière. Probabilité d'une panne d'environ 32% (1*Omega)
-     * Si la valeur absolue du double tiré est supérieure ou égale à 1 alors une on considère une panne
-     */
-    public void coffeeMachineFailure(){
-<span class="fc" id="L133">        double nxt = randomGenerator.nextGaussian();</span>
 
-<span class="fc bfc" id="L135" title="All 2 branches covered.">        isOutOfOrder = (Math.abs(nxt) &gt;= 1);</span>
-<span class="fc" id="L136">    }</span>
+    public void coffeeMachineFailure(){
+<span class="fc" id="L136">        double nxt = randomGenerator.nextGaussian();</span>
+
+<span class="fc bfc" id="L138" title="All 2 branches covered.">        isOutOfOrder = (Math.abs(nxt) &gt;= 1);</span>
+<span class="fc" id="L139">    }</span>
 
     public String toString(){
-<span class="nc" id="L139">        return &quot;Your coffee machine has : \n&quot; +</span>
-<span class="nc" id="L140">        &quot;- water tank : &quot; + waterTank.toString() + &quot;\n&quot; +</span>
-<span class="nc" id="L141">        &quot;- water pump : &quot; + waterPump.toString() + &quot;\n&quot; +</span>
+<span class="fc" id="L142">        return &quot;Your coffee machine has : \n&quot; +</span>
+<span class="fc" id="L143">        &quot;- water tank : &quot; + waterTank.toString() + &quot;\n&quot; +</span>
+<span class="fc" id="L144">        &quot;- water pump : &quot; + waterPump.toString() + &quot;\n&quot; +</span>
         &quot;- electrical resistance : &quot; + electricalResistance + &quot;\n&quot; +
         &quot;- is plugged : &quot; + isPlugged + &quot;\n&quot;+
         &quot;and made &quot; + nbCoffeeMade + &quot; coffees&quot;;
     }
 
     public WaterTank getWaterTank() {
-<span class="nc" id="L148">        return waterTank;</span>
+<span class="fc" id="L151">        return waterTank;</span>
     }
 
     public WaterPump getWaterPump() {
-<span class="nc" id="L152">        return waterPump;</span>
+<span class="fc" id="L155">        return waterPump;</span>
     }
 
     public ElectricalResistance getElectricalResistance() {
-<span class="nc" id="L156">        return electricalResistance;</span>
+<span class="fc" id="L159">        return electricalResistance;</span>
     }
 
     public boolean isPlugged() {
-<span class="fc" id="L160">        return isPlugged;</span>
+<span class="fc" id="L163">        return isPlugged;</span>
     }
 
     public boolean isOutOfOrder() {
-<span class="fc" id="L164">        return isOutOfOrder;</span>
+<span class="fc" id="L167">        return isOutOfOrder;</span>
     }
 
     public void setOutOfOrder(boolean outOfOrder) {
-<span class="nc" id="L168">        isOutOfOrder = outOfOrder;</span>
-<span class="nc" id="L169">    }</span>
+<span class="fc" id="L171">        isOutOfOrder = outOfOrder;</span>
+<span class="fc" id="L172">    }</span>
 
     public int getNbCoffeeMade() {
-<span class="nc" id="L172">        return nbCoffeeMade;</span>
+<span class="fc" id="L175">        return this.nbCoffeeMade;</span>
     }
 
     public void setNbCoffeeMade(int nbCoffeeMade) {
-<span class="nc" id="L176">        this.nbCoffeeMade = nbCoffeeMade;</span>
-<span class="nc" id="L177">    }</span>
+<span class="fc" id="L179">        this.nbCoffeeMade = nbCoffeeMade;</span>
+<span class="fc" id="L180">    }</span>
 
     public Random getRandomGenerator() {
-<span class="nc" id="L180">        return randomGenerator;</span>
+<span class="nc" id="L183">        return randomGenerator;</span>
     }
 
     public void setRandomGenerator(Random randomGenerator) {
-<span class="fc" id="L184">        this.randomGenerator = randomGenerator;</span>
-<span class="fc" id="L185">    }</span>
+<span class="fc" id="L187">        this.randomGenerator = randomGenerator;</span>
+<span class="fc" id="L188">    }</span>
 
     public CoffeeGrinder getCoffeeGrinder() {
-<span class="nc" id="L188">        return coffeeGrinder;</span>
+<span class="nc" id="L191">        return coffeeGrinder;</span>
     }
     public BeanTank getBeanTank() {
-<span class="nc" id="L191">        return beanTank;</span>
+<span class="fc" id="L194">        return beanTank;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

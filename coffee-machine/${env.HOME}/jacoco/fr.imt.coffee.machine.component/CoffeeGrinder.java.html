@@ -23,12 +23,12 @@ public class CoffeeGrinder {
      * @throws InterruptedException Exception levée en cas de problèmes lors du sleep par le Thread
      */
     public double grindCoffee(BeanTank beanTank) throws InterruptedException {
-<span class="nc" id="L26">        logger.info(&quot;Grinding time : &quot;  +  grindingTime);</span>
-<span class="nc" id="L27">        logger.info(&quot;Grinding...&quot;);</span>
-<span class="nc" id="L28">        Thread.sleep(grindingTime);</span>
-<span class="nc" id="L29">        beanTank.increaseVolumeInTank(0.2);</span>
-<span class="nc" id="L30">        logger.info(&quot;Grinding OK&quot;);</span>
-<span class="nc" id="L31">        return grindingTime;</span>
+<span class="fc" id="L26">        logger.info(&quot;Grinding time : &quot;  +  grindingTime);</span>
+<span class="fc" id="L27">        logger.info(&quot;Grinding...&quot;);</span>
+<span class="fc" id="L28">        Thread.sleep(grindingTime);</span>
+<span class="fc" id="L29">        beanTank.increaseVolumeInTank(0.2);</span>
+<span class="fc" id="L30">        logger.info(&quot;Grinding OK&quot;);</span>
+<span class="fc" id="L31">        return grindingTime;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

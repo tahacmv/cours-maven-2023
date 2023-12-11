@@ -26,13 +26,13 @@ public class WaterPump {
      * @throws InterruptedException Exception levée en cas de problèmes lors du sleep par le Thread
      */
     public double pumpWater(double waterVolume, WaterTank waterTank) throws InterruptedException {
-<span class="nc" id="L29">        double pumpingTime = (waterVolume / pumpingCapacity) * 1000 * 2;</span>
-<span class="nc" id="L30">        logger.info(&quot;Pumping time : &quot;  +  pumpingTime);</span>
-<span class="nc" id="L31">        logger.info(&quot;Pumping...&quot;);</span>
-<span class="nc" id="L32">        Thread.sleep((long) (pumpingTime));</span>
-<span class="nc" id="L33">        waterTank.decreaseVolumeInTank(waterVolume);</span>
-<span class="nc" id="L34">        logger.info(&quot;Pumping OK&quot;);</span>
-<span class="nc" id="L35">        return pumpingTime;</span>
+<span class="fc" id="L29">        double pumpingTime = (waterVolume / pumpingCapacity) * 1000 * 2;</span>
+<span class="fc" id="L30">        logger.info(&quot;Pumping time : &quot;  +  pumpingTime);</span>
+<span class="fc" id="L31">        logger.info(&quot;Pumping...&quot;);</span>
+<span class="fc" id="L32">        Thread.sleep((long) (pumpingTime));</span>
+<span class="fc" id="L33">        waterTank.decreaseVolumeInTank(waterVolume);</span>
+<span class="fc" id="L34">        logger.info(&quot;Pumping OK&quot;);</span>
+<span class="fc" id="L35">        return pumpingTime;</span>
     }
 
     public double getPumpingCapacity() {

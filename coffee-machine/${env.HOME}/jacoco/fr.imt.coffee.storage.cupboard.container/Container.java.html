@@ -4,10 +4,10 @@ public abstract class Container {
     private double capacity;
     private boolean isEmpty;
 
-<span class="nc" id="L7">    public Container(double capacity){</span>
-<span class="nc" id="L8">        this.capacity = capacity;</span>
-<span class="nc" id="L9">        isEmpty = true;</span>
-<span class="nc" id="L10">    }</span>
+<span class="fc" id="L7">    public Container(double capacity){</span>
+<span class="fc" id="L8">        this.capacity = capacity;</span>
+<span class="fc" id="L9">        isEmpty = true;</span>
+<span class="fc" id="L10">    }</span>
 
 <span class="nc" id="L12">    public Container(Container container){</span>
 <span class="nc" id="L13">        this.capacity = container.getCapacity();</span>
@@ -27,8 +27,8 @@ public abstract class Container {
     }
 
     public void setEmpty(boolean empty) {
-<span class="nc" id="L30">        isEmpty = empty;</span>
-<span class="nc" id="L31">    }</span>
+<span class="fc" id="L30">        isEmpty = empty;</span>
+<span class="fc" id="L31">    }</span>
 
     public String toString(){
 <span class="nc" id="L34">        return &quot;Container capacity : &quot; + capacity + &quot;\n&quot; + &quot;is empty : &quot; + isEmpty;</span>

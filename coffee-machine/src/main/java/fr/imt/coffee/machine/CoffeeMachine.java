@@ -87,6 +87,19 @@ public class CoffeeMachine {
             throw new MachineNotPluggedException("You must plug your coffee machine.");
         }
 
+        /**
+         * Tirage aléatoire d'un nombre en suivant une loi normale (loi régissant les pannes).
+         * Permet de simuler une panne sur la cafetière. Probabilité d'une panne d'environ 32% (1*Omega)
+         * Si la valeur absolue du double tiré est supérieure ou égale à 1 alors une on considère une panne
+         */
+
+        // coffeeMachineFailure();
+
+        if(isOutOfOrder){
+            logger.warn("The machine is out of order. Please reset the coffee machine");
+            return null;
+        }
+
         if (waterTank.getActualVolume() < container.getCapacity()){
             throw new LackOfWaterInTankException("You must add more water in the water tank.");
         }
@@ -99,12 +112,6 @@ public class CoffeeMachine {
             throw new CoffeeTypeCupDifferentOfCoffeeTypeTankException("The type of coffee to be made in the cup is different from that in the tank.");
         }
 
-        coffeeMachineFailure();
-
-        if(isOutOfOrder){
-            logger.warn("The machine is out of order. Please reset the coffee machine");
-            return null;
-        }
 
         if(coffeeType.toString().contains("_CREMA")){
             throw new CannotMakeCremaWithSimpleCoffeeMachine("You cannot make an espresso with a CoffeeMachine, please use EspressoCoffeeMachine");
@@ -124,11 +131,7 @@ public class CoffeeMachine {
         return coffeeContainer;
     }
 
-    /**
-     * Tirage aléatoire d'un nombre en suivant une loi normale (loi régissant les pannes).
-     * Permet de simuler une panne sur la cafetière. Probabilité d'une panne d'environ 32% (1*Omega)
-     * Si la valeur absolue du double tiré est supérieure ou égale à 1 alors une on considère une panne
-     */
+
     public void coffeeMachineFailure(){
         double nxt = randomGenerator.nextGaussian();
 
@@ -169,7 +172,7 @@ public class CoffeeMachine {
     }
 
     public int getNbCoffeeMade() {
-        return nbCoffeeMade;
+        return this.nbCoffeeMade;
     }
 
     public void setNbCoffeeMade(int nbCoffeeMade) {
