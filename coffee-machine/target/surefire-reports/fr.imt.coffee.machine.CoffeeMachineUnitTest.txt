@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: fr.imt.coffee.machine.CoffeeMachineUnitTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 28.535 s - in fr.imt.coffee.machine.CoffeeMachineUnitTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 28.541 s - in fr.imt.coffee.machine.CoffeeMachineUnitTest

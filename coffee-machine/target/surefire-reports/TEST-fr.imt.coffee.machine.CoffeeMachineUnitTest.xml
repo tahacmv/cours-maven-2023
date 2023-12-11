@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="28.535" tests="15" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="28.541" tests="15" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\tmmot\AppData\Local\Temp\surefire13771757065942067690\surefirebooter-20231211013608374_3.jar C:\Users\tmmot\AppData\Local\Temp\surefire13771757065942067690 2023-12-11T01-36-08_125-jvmRun1 surefire-20231211013608374_1tmp surefire_0-20231211013608374_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\tmmot\AppData\Local\Temp\surefire12841879711261373157\surefirebooter-20231211020429813_3.jar C:\Users\tmmot\AppData\Local\Temp\surefire12841879711261373157 2023-12-11T02-04-29_560-jvmRun1 surefire-20231211020429813_1tmp surefire_0-20231211020429813_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="B:\work\qualite logicielle\cours-maven-2023\coffee-machine\target\test-classes;B:\work\qualite logicielle\cours-maven-2023\coffee-machine\target\classes;C:\Users\tmmot\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\tmmot\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\tmmot\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\tmmot\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tmmot\.m2\repository\org\junit\vintage\junit-vintage-engine\5.9.1\junit-vintage-engine-5.9.1.jar;C:\Users\tmmot\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\tmmot\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\tmmot\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\tmmot\.m2\repository\org\mockito\mockito-core\4.8.0\mockito-core-4.8.0.jar;C:\Users\tmmot\.m2\repository\net\bytebuddy\byte-buddy\1.12.14\byte-buddy-1.12.14.jar;C:\Users\tmmot\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.14\byte-buddy-agent-1.12.14.jar;C:\Users\tmmot\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\tmmot\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\tmmot\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\tmmot\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\tmmot\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\tmmot\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\tmmot\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\tmmot\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\tmmot\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\tmmot\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\tmmot\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\tmmot\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\tmmot\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\tmmot\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\tmmot\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\tmmot\.m2\repository\io\cucumber\cucumber-junit\7.8.1\cucumber-junit-7.8.1.jar;C:\Users\tmmot\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.0\log4j-api-2.22.0.jar;C:\Users\tmmot\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.0\log4j-core-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\tmmot\AppData\Local\Temp\surefire13771757065942067690\surefirebooter-20231211013608374_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\tmmot\AppData\Local\Temp\surefire12841879711261373157\surefirebooter-20231211020429813_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2.1+1-1"/>
@@ -59,43 +59,43 @@
   <testcase name="" classname="fr.imt.coffee.machine.CoffeeMachineCucumberFunctionalTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="TestMakeCoffeeAndLackOfWater" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="1.071"/>
+  <testcase name="TestMakeCoffeeAndLackOfWater" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="1.052"/>
   <testcase name="testMachineFailureTrue" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.083"/>
-  <testcase name="testMakeACoffeeCremaException" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.014"/>
-  <testcase name="TestToString" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.008"/>
+  <testcase name="testMakeACoffeeCremaException" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.019"/>
+  <testcase name="TestToString" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.01"/>
   <testcase name="TestAddCoffeeBeanTank" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.001"/>
-  <testcase name="TestMakeCoffeeAndMachineUnplugged" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.002"/>
-  <testcase name="testPlugMachine" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0"/>
-  <testcase name="testMakeACoffeeInCup" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="9.007">
-    <system-out><![CDATA[01:36:10.675 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating time : 5439.0
-01:36:10.678 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating...
-01:36:16.118 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating OK
-01:36:16.121 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping time : 1542.8571428571427
-01:36:16.121 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping...
-01:36:17.665 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping OK
-01:36:17.667 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding time : 2000
-01:36:17.667 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding...
-01:36:19.675 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding OK
+  <testcase name="TestMakeCoffeeAndMachineUnplugged" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.003"/>
+  <testcase name="testPlugMachine" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.001"/>
+  <testcase name="testMakeACoffeeInCup" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="9.006">
+    <system-out><![CDATA[02:04:32.140 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating time : 5439.0
+02:04:32.142 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating...
+02:04:37.582 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating OK
+02:04:37.584 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping time : 1542.8571428571427
+02:04:37.585 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping...
+02:04:39.127 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping OK
+02:04:39.127 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding time : 2000
+02:04:39.128 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding...
+02:04:41.139 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding OK
 ]]></system-out>
   </testcase>
-  <testcase name="testMakeACoffeeInMug" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="18.312">
-    <system-out><![CDATA[01:36:19.680 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating time : 12690.999999999998
-01:36:19.680 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating...
-01:36:32.386 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating OK
-01:36:32.386 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping time : 3599.9999999999995
-01:36:32.386 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping...
-01:36:35.986 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping OK
-01:36:35.986 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding time : 2000
-01:36:35.986 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding...
-01:36:37.989 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding OK
+  <testcase name="testMakeACoffeeInMug" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="18.321">
+    <system-out><![CDATA[02:04:41.142 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating time : 12690.999999999998
+02:04:41.142 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating...
+02:04:53.845 [main] INFO  fr.imt.coffee.machine.component.ElectricalResistance - Water heating OK
+02:04:53.847 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping time : 3599.9999999999995
+02:04:53.847 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping...
+02:04:57.448 [main] INFO  fr.imt.coffee.machine.component.WaterPump - Pumping OK
+02:04:57.448 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding time : 2000
+02:04:57.449 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding...
+02:04:59.457 [main] INFO  fr.imt.coffee.machine.component.CoffeeGrinder - Grinding OK
 ]]></system-out>
   </testcase>
-  <testcase name="testMakeACoffeeDifferentCoffeeTypeException" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.007"/>
-  <testcase name="TestChangeNbCoffeeMade" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0"/>
-  <testcase name="testMakeACoffeeCupNotEmptyException" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.003"/>
+  <testcase name="testMakeACoffeeDifferentCoffeeTypeException" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.004"/>
+  <testcase name="TestChangeNbCoffeeMade" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.001"/>
+  <testcase name="testMakeACoffeeCupNotEmptyException" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.002"/>
   <testcase name="testMachineFailureFalse" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.001"/>
-  <testcase name="testMakeACoffeeOutOfOrderException" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.001">
-    <system-out><![CDATA[01:36:38.003 [main] WARN  fr.imt.coffee.machine.CoffeeMachine - The machine is out of order. Please reset the coffee machine
+  <testcase name="testMakeACoffeeOutOfOrderException" classname="fr.imt.coffee.machine.CoffeeMachineUnitTest" time="0.003">
+    <system-out><![CDATA[02:04:59.476 [main] WARN  fr.imt.coffee.machine.CoffeeMachine - The machine is out of order. Please reset the coffee machine
 ]]></system-out>
   </testcase>
 </testsuite>

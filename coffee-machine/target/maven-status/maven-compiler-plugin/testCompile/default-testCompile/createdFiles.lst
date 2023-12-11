@@ -1,3 +1,4 @@
+fr\imt\coffee\machine\EspressoCoffeeMachineTest.class
 fr\imt\coffee\machine\cucumber\steps\CucumberStepsCoffeeMachineMakeACoffeeTest.class
 fr\imt\coffee\machine\component\ElectricalResistanceTest.class
 fr\imt\coffee\machine\cucumber\steps\CucumberStepsExpressoCoffeeMachineTest.class
