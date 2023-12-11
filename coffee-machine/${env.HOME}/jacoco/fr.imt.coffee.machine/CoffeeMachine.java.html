@@ -27,8 +27,8 @@ public class CoffeeMachine {
     private int nbCoffeeMade;
     private Random randomGenerator;
 
-    public CoffeeMachine(double minCoffeeBeanTank, double maxCoffeeBeanTank, double minWaterTank, double maxWaterTank,
-<span class="fc" id="L31">                         double pumpingCapacity){</span>
+<span class="fc" id="L30">    public CoffeeMachine(double minCoffeeBeanTank, double maxCoffeeBeanTank, double minWaterTank, double maxWaterTank,</span>
+                         double pumpingCapacity){
 <span class="fc" id="L32">        this.beanTank = new BeanTank(0, minCoffeeBeanTank, maxCoffeeBeanTank, null);</span>
 <span class="fc" id="L33">        this.waterTank = new WaterTank(0, minWaterTank, maxWaterTank);</span>
 <span class="fc" id="L34">        this.waterPump = new WaterPump(pumpingCapacity/3600); //On convertit les L/h en L/seconde</span>
@@ -63,8 +63,8 @@ public class CoffeeMachine {
 <span class="fc" id="L63">    }</span>
 
     public void addCoffeeInBeanTank(double coffeeVolume, CoffeeType coffeeType){
-<span class="nc" id="L66">        beanTank.increaseCoffeeVolumeInTank(coffeeVolume, coffeeType);</span>
-<span class="nc" id="L67">    }</span>
+<span class="fc" id="L66">        beanTank.increaseCoffeeVolumeInTank(coffeeVolume, coffeeType);</span>
+<span class="fc" id="L67">    }</span>
 
     /**
      * Permet de faire couler un café à partir d'un contenant et d'un type de café
@@ -127,7 +127,7 @@ public class CoffeeMachine {
 <span class="fc bfc" id="L127" title="All 2 branches covered.">        if(container instanceof Mug)</span>
 <span class="fc" id="L128">            coffeeContainer = new CoffeeMug((Mug) container, coffeeType);</span>
 
-<span class="fc" id="L130">        coffeeContainer.setEmpty(true);</span>
+<span class="fc" id="L130">        coffeeContainer.setEmpty(false);</span>
 <span class="fc" id="L131">        return coffeeContainer;</span>
     }
 
@@ -142,9 +142,9 @@ public class CoffeeMachine {
 <span class="fc" id="L142">        return &quot;Your coffee machine has : \n&quot; +</span>
 <span class="fc" id="L143">        &quot;- water tank : &quot; + waterTank.toString() + &quot;\n&quot; +</span>
 <span class="fc" id="L144">        &quot;- water pump : &quot; + waterPump.toString() + &quot;\n&quot; +</span>
-        &quot;- electrical resistance : &quot; + electricalResistance + &quot;\n&quot; +
-        &quot;- is plugged : &quot; + isPlugged + &quot;\n&quot;+
-        &quot;and made &quot; + nbCoffeeMade + &quot; coffees&quot;;
+<span class="fc" id="L145">        &quot;- electrical resistance : &quot; + electricalResistance + &quot;\n&quot; +</span>
+<span class="fc" id="L146">        &quot;- is plugged : &quot; + isPlugged + &quot;\n&quot;+</span>
+<span class="fc" id="L147">        &quot;and made &quot; + nbCoffeeMade + &quot; coffees&quot;;</span>
     }
 
     public WaterTank getWaterTank() {
