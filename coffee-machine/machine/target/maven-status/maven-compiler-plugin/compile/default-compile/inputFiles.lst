@@ -1,0 +1,13 @@
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\component\Tank.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\exception\MachineNotPluggedException.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\component\ElectricalResistance.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\CoffeeMachine.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\component\WaterPump.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\component\WaterTank.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\exception\LackOfWaterInTankException.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\EspressoCoffeeMachine.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\exception\CoffeeTypeCupDifferentOfCoffeeTypeTankException.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\component\SteamPipe.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\component\CoffeeGrinder.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\exception\CannotMakeCremaWithSimpleCoffeeMachine.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\main\java\fr\imt\cours\machine\component\BeanTank.java

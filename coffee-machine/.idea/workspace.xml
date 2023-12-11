@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61da4882-21ed-49ee-839b-dfd592972a18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/machine/src/test/java/CoffeeMachineUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine/src/test/java/EspressoCoffeeMachineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/BeanTank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/BeanTank.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/CoffeeGrinder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/CoffeeGrinder.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/ElectricalResistance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/ElectricalResistance.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/SteamPipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/SteamPipe.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/Tank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/Tank.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/WaterPump.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/WaterPump.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/WaterTank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/WaterTank.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.component/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/CannotMakeCremaWithSimpleCoffeeMachine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/CannotMakeCremaWithSimpleCoffeeMachine.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/CoffeeTypeCupDifferentOfCoffeeTypeTankException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/CoffeeTypeCupDifferentOfCoffeeTypeTankException.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/LackOfWaterInTankException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/LackOfWaterInTankException.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/MachineNotPluggedException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/MachineNotPluggedException.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine.exception/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine/CoffeeMachine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine/CoffeeMachine.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine/EspressoCoffeeMachine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine/EspressoCoffeeMachine.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.machine/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.coffee.type/CoffeeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.coffee.type/CoffeeType.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.coffee.type/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.coffee.type/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/CoffeeContainer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/CoffeeContainer.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/CoffeeCup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/CoffeeCup.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/CoffeeMug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/CoffeeMug.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/Container.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/Container.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/Cup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/Cup.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/Mug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/Mug.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.container/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.exception/CupNotEmptyException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.exception/CupNotEmptyException.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.exception/ExceptionContainerCreation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.exception/ExceptionContainerCreation.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.exception/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard.exception/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard/FabricCupboardContainer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard/FabricCupboardContainer.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee.storage.cupboard/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/MainCoffee.html" beforeDir="false" afterPath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/MainCoffee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/MainCoffee.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/MainEspresso.html" beforeDir="false" afterPath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/MainEspresso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/MainEspresso.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/${env.HOME}/jacoco/fr.imt.coffee/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/${env.HOME}/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/${env.HOME}/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/${env.HOME}/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${env.HOME}/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/${env.HOME}/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/machine/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/CoffeeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/EspressoCoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/EspressoCoffeeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/component/BeanTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/component/BeanTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/component/CoffeeGrinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/component/CoffeeGrinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/component/ElectricalResistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/component/ElectricalResistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/component/SteamPipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/component/SteamPipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/component/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/component/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/component/WaterPump.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/component/WaterPump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/component/WaterTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/component/WaterTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/exception/CannotMakeCremaWithSimpleCoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/exception/CannotMakeCremaWithSimpleCoffeeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/exception/CoffeeTypeCupDifferentOfCoffeeTypeTankException.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/exception/CoffeeTypeCupDifferentOfCoffeeTypeTankException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/exception/LackOfWaterInTankException.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/exception/LackOfWaterInTankException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/exception/MachineNotPluggedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/machine/src/main/java/fr/imt/cours/machine/exception/MachineNotPluggedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/CoffeeMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/EspressoCoffeeMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/component/BeanTank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/component/CoffeeGrinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/component/ElectricalResistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/component/SteamPipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/component/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/component/WaterPump.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/component/WaterTank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/exception/CannotMakeCremaWithSimpleCoffeeMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/exception/CoffeeTypeCupDifferentOfCoffeeTypeTankException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/exception/LackOfWaterInTankException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine/target/classes/fr/imt/cours/exception/MachineNotPluggedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/imt/coffee/MainCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/fr/imt/cours/main/MainCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/imt/coffee/MainEspresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/fr/imt/cours/main/MainEspresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/src/main/java/fr/imt/cours/storage/coffee/type/CoffeeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/fr/imt/cours/storage/coffeeType/CoffeeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/src/main/java/fr/imt/cours/storage/container/CoffeeContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/fr/imt/cours/storage/container/CoffeeContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/src/main/java/fr/imt/cours/storage/container/CoffeeCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/fr/imt/cours/storage/container/CoffeeCup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/src/main/java/fr/imt/cours/storage/container/CoffeeMug.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/fr/imt/cours/storage/container/CoffeeMug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/FabricCupboardContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/FabricCupboardContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/CoffeeContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/CoffeeContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/CoffeeCup.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/CoffeeCup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/CoffeeMug.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/CoffeeMug.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/Container.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/Container.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/Cup.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/Cup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/Mug.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/container/Mug.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/CannotMakeCremaWithSimpleCoffeeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/CannotMakeCremaWithSimpleCoffeeMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/CoffeeTypeCupDifferentOfCoffeeTypeTankException.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/CoffeeTypeCupDifferentOfCoffeeTypeTankException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/CupNotEmptyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/CupNotEmptyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/ExceptionContainerCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/ExceptionContainerCreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/LackOfWaterInTankException.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/LackOfWaterInTankException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/MachineNotPluggedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/fr/imt/cours/storage/exception/MachineNotPluggedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coffee-machine-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/coffee-machine-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2ZPtaCDg3mYqD2PeBfzvuIFxbj4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.coffee-machine [install].executor": "Run",
+    "Maven.coffee-machine [test].executor": "Run",
+    "Maven.coffee-machine [verify].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "18",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "B:/work/qualite logicielle/cours-maven-2023/coffee-machine/machine/src/test/java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\work\qualite logicielle\cours-maven-2023\coffee-machine\machine\src\test\java" />
+      <recent name="B:\work\qualite logicielle\cours-maven-2023\coffee-machine\temp\src\main\java\fr\imt\cours\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\work\qualite logicielle\cours-maven-2023\coffee-machine\main\src\main\java\fr\imt\cours\main" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-8336523bb0d9-8518695b" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61da4882-21ed-49ee-839b-dfd592972a18" name="Changes" comment="" />
+      <created>1702335604323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702335604323</updated>
+    </task>
+    <servers />
+  </component>
+</project>

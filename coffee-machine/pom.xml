@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>storage</module>
+        <module>main</module>
         <module>machine</module>
     </modules>
 
@@ -110,18 +111,6 @@
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>fr.imt.cours.storage</groupId>
-            <artifactId>storage</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>fr.imt.cours</groupId>
-            <artifactId>machine</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
         <!-- JUnit 5 dependency -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>

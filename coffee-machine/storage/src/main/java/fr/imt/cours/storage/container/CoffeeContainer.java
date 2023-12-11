@@ -1,6 +1,6 @@
 package fr.imt.cours.storage.container;
 
-import fr.imt.cours.storage.coffee.type.CoffeeType;
+import fr.imt.cours.storage.coffeeType.CoffeeType;
 
 public abstract class CoffeeContainer extends Container{
     private final CoffeeType coffeeType;

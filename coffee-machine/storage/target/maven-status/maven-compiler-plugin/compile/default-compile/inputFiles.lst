@@ -1,0 +1,14 @@
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\exception\CupNotEmptyException.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\exception\LackOfWaterInTankException.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\container\Container.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\container\Cup.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\exception\CoffeeTypeCupDifferentOfCoffeeTypeTankException.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\container\CoffeeCup.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\exception\CannotMakeCremaWithSimpleCoffeeMachine.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\FabricCupboardContainer.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\coffeeType\CoffeeType.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\container\CoffeeContainer.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\container\Mug.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\exception\MachineNotPluggedException.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\exception\ExceptionContainerCreation.java
+B:\work\qualite logicielle\cours-maven-2023\coffee-machine\storage\src\main\java\fr\imt\cours\storage\container\CoffeeMug.java
