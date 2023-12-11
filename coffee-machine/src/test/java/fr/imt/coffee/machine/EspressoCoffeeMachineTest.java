@@ -1,12 +1,19 @@
 package fr.imt.coffee.machine;
 
-import fr.imt.coffee.machine.exception.CannotMakeCremaWithSimpleCoffeeMachine;
-import fr.imt.coffee.machine.exception.CoffeeTypeCupDifferentOfCoffeeTypeTankException;
-import fr.imt.coffee.machine.exception.LackOfWaterInTankException;
-import fr.imt.coffee.machine.exception.MachineNotPluggedException;
-import fr.imt.coffee.storage.cupboard.coffee.type.CoffeeType;
-import fr.imt.coffee.storage.cupboard.container.*;
-import fr.imt.coffee.storage.cupboard.exception.CupNotEmptyException;
+import fr.imt.cours.CoffeeMachine;
+import fr.imt.cours.EspressoCoffeeMachine;
+import fr.imt.cours.exception.CannotMakeCremaWithSimpleCoffeeMachine;
+import fr.imt.cours.exception.CoffeeTypeCupDifferentOfCoffeeTypeTankException;
+import fr.imt.cours.exception.LackOfWaterInTankException;
+import fr.imt.cours.exception.MachineNotPluggedException;
+import fr.imt.cours.storage.coffee.type.CoffeeType;
+import fr.imt.cours.storage.container.CoffeeContainer;
+import fr.imt.cours.storage.container.CoffeeCup;
+import fr.imt.cours.storage.container.CoffeeMug;
+import fr.imt.cours.storage.container.Cup;
+import fr.imt.cours.storage.container.Mug;
+import fr.imt.cours.storage.exception.CupNotEmptyException;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -140,7 +147,7 @@ class EspressoCoffeeMachineTest {
         espressoCoffeeMachineUnderTest.addWaterInTank(10);
 
         // On ajoute le bon type de cafe
-        espressoCoffeeMachineUnderTest.beanTank.setBeanCoffeeType(CoffeeType.ROBUSTA);
+        espressoCoffeeMachineUnderTest.getBeanTank().setBeanCoffeeType(CoffeeType.ROBUSTA);
 
         espressoCoffeeMachineUnderTest.setOutOfOrder(true);
 
@@ -184,7 +191,7 @@ class EspressoCoffeeMachineTest {
         espressoCoffeeMachineUnderTest.addWaterInTank(10);
 
         // On ajoute le bon type de cafe
-        espressoCoffeeMachineUnderTest.beanTank.setBeanCoffeeType(CoffeeType.ROBUSTA);
+        espressoCoffeeMachineUnderTest.getBeanTank().setBeanCoffeeType(CoffeeType.ROBUSTA);
 
         // On appelle la méthode makeACoffee
         CoffeeContainer container = espressoCoffeeMachineUnderTest.makeACoffee(mockCup, CoffeeType.ROBUSTA);
@@ -212,7 +219,7 @@ class EspressoCoffeeMachineTest {
         espressoCoffeeMachineUnderTest.plugToElectricalPlug();
 
         // On ajoute le bon type de cafe
-        espressoCoffeeMachineUnderTest.beanTank.setBeanCoffeeType(CoffeeType.ROBUSTA);
+        espressoCoffeeMachineUnderTest.getBeanTank().setBeanCoffeeType(CoffeeType.ROBUSTA);
 
         // On branche la machine à la prise électrique
         espressoCoffeeMachineUnderTest.plugToElectricalPlug();
@@ -221,7 +228,7 @@ class EspressoCoffeeMachineTest {
         espressoCoffeeMachineUnderTest.addWaterInTank(10);
 
         // On ajoute le bon type de cafe
-        espressoCoffeeMachineUnderTest.beanTank.setBeanCoffeeType(CoffeeType.ROBUSTA);
+        espressoCoffeeMachineUnderTest.getBeanTank().setBeanCoffeeType(CoffeeType.ROBUSTA);
 
         // On appelle la méthode makeACoffee
         CoffeeContainer container = espressoCoffeeMachineUnderTest.makeACoffee(mockMug, CoffeeType.ROBUSTA);
@@ -247,7 +254,7 @@ class EspressoCoffeeMachineTest {
         espressoCoffeeMachineUnderTest.addWaterInTank(10);
 
         // On ajoute le bon type de cafe
-        espressoCoffeeMachineUnderTest.beanTank.setBeanCoffeeType(CoffeeType.ROBUSTA);
+        espressoCoffeeMachineUnderTest.getBeanTank().setBeanCoffeeType(CoffeeType.ROBUSTA);
 
         // On vérifie que l'exception MachineNotPluggedException est levée
         Assertions.assertThrows(MachineNotPluggedException.class, () -> {
@@ -268,7 +275,7 @@ class EspressoCoffeeMachineTest {
         espressoCoffeeMachineUnderTest.plugToElectricalPlug();
 
         // On ajoute le bon type de cafe
-        espressoCoffeeMachineUnderTest.beanTank.setBeanCoffeeType(CoffeeType.ROBUSTA);
+        espressoCoffeeMachineUnderTest.getBeanTank().setBeanCoffeeType(CoffeeType.ROBUSTA);
 
         // On vérifie que l'exception MachineNotPluggedException est levée
         Assertions.assertThrows(LackOfWaterInTankException.class, () -> {
@@ -291,7 +298,7 @@ class EspressoCoffeeMachineTest {
         espressoCoffeeMachineUnderTest.addWaterInTank(10);
 
         // On ajoute le bon type de cafe
-        espressoCoffeeMachineUnderTest.beanTank.setBeanCoffeeType(CoffeeType.ROBUSTA);
+        espressoCoffeeMachineUnderTest.getBeanTank().setBeanCoffeeType(CoffeeType.ROBUSTA);
 
         String result = espressoCoffeeMachineUnderTest.toString();
 
@@ -317,11 +324,11 @@ class EspressoCoffeeMachineTest {
     public void TestAddCoffeeBeanTank(){
 
         // On ajoute le bon type de cafe
-        espressoCoffeeMachineUnderTest.beanTank.setBeanCoffeeType(CoffeeType.ROBUSTA);
+        espressoCoffeeMachineUnderTest.getBeanTank().setBeanCoffeeType(CoffeeType.ROBUSTA);
 
         //  On ajoute plus de cafe du meme type
 
-        espressoCoffeeMachineUnderTest.beanTank.increaseCoffeeVolumeInTank(10, CoffeeType.ROBUSTA);
+        espressoCoffeeMachineUnderTest.getBeanTank().increaseCoffeeVolumeInTank(10, CoffeeType.ROBUSTA);
 
         Assertions.assertEquals(espressoCoffeeMachineUnderTest.getBeanTank().getActualVolume(), 10);
 

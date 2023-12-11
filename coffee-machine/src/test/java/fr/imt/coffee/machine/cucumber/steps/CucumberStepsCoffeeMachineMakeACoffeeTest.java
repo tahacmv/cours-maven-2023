@@ -1,19 +1,25 @@
 package fr.imt.coffee.machine.cucumber.steps;
 
-import fr.imt.coffee.machine.CoffeeMachine;
-import fr.imt.coffee.machine.exception.CannotMakeCremaWithSimpleCoffeeMachine;
-import fr.imt.coffee.machine.exception.CoffeeTypeCupDifferentOfCoffeeTypeTankException;
-import fr.imt.coffee.machine.exception.LackOfWaterInTankException;
-import fr.imt.coffee.machine.exception.MachineNotPluggedException;
-import fr.imt.coffee.storage.cupboard.coffee.type.CoffeeType;
-import fr.imt.coffee.storage.cupboard.container.*;
-import fr.imt.coffee.storage.cupboard.exception.CupNotEmptyException;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import org.mockito.Mockito;
+
+import fr.imt.cours.CoffeeMachine;
+import fr.imt.cours.exception.CannotMakeCremaWithSimpleCoffeeMachine;
+import fr.imt.cours.exception.CoffeeTypeCupDifferentOfCoffeeTypeTankException;
+import fr.imt.cours.exception.LackOfWaterInTankException;
+import fr.imt.cours.exception.MachineNotPluggedException;
+import fr.imt.cours.storage.coffee.type.CoffeeType;
+import fr.imt.cours.storage.container.CoffeeContainer;
+import fr.imt.cours.storage.container.CoffeeCup;
+import fr.imt.cours.storage.container.CoffeeMug;
+import fr.imt.cours.storage.container.Cup;
+import fr.imt.cours.storage.container.Mug;
+import fr.imt.cours.storage.exception.CupNotEmptyException;
 
 import java.util.Random;
 

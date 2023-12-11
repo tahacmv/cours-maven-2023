@@ -1,19 +1,19 @@
 package fr.imt.coffee;
 
-import fr.imt.coffee.machine.CoffeeMachine;
-import fr.imt.coffee.machine.EspressoCoffeeMachine;
-import fr.imt.coffee.machine.exception.CoffeeTypeCupDifferentOfCoffeeTypeTankException;
-import fr.imt.coffee.machine.exception.LackOfWaterInTankException;
-import fr.imt.coffee.machine.exception.MachineNotPluggedException;
-import fr.imt.coffee.storage.cupboard.FabricCupboardContainer;
-import fr.imt.coffee.storage.cupboard.coffee.type.CoffeeType;
-import fr.imt.coffee.storage.cupboard.container.Container;
-import fr.imt.coffee.storage.cupboard.container.Cup;
-import fr.imt.coffee.storage.cupboard.container.Mug;
-import fr.imt.coffee.storage.cupboard.exception.CupNotEmptyException;
-import fr.imt.coffee.storage.cupboard.exception.ExceptionContainerCreation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import fr.imt.cours.EspressoCoffeeMachine;
+import fr.imt.cours.exception.CoffeeTypeCupDifferentOfCoffeeTypeTankException;
+import fr.imt.cours.exception.LackOfWaterInTankException;
+import fr.imt.cours.exception.MachineNotPluggedException;
+import fr.imt.cours.storage.FabricCupboardContainer;
+import fr.imt.cours.storage.coffee.type.CoffeeType;
+import fr.imt.cours.storage.container.Container;
+import fr.imt.cours.storage.container.Cup;
+import fr.imt.cours.storage.container.Mug;
+import fr.imt.cours.storage.exception.CupNotEmptyException;
+import fr.imt.cours.storage.exception.ExceptionContainerCreation;
 
 public class MainEspresso {
     //Instanciation du logger à partir d'un LogManager.

@@ -3,6 +3,8 @@ package fr.imt.coffee.machine.component;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import fr.imt.cours.component.ElectricalResistance;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
