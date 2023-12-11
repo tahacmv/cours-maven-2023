@@ -41,6 +41,11 @@ public class EspressoCoffeeMachine extends CoffeeMachine{
             throw new MachineNotPluggedException("You must plug your coffee machine to an electrical plug.");
         }
 
+        if(isOutOfOrder()){
+            logger.warn("The machine is out of order. Please reset the coffee machine");
+            return null;
+        }
+
         if (getWaterTank().getActualVolume() < container.getCapacity()){
             throw new LackOfWaterInTankException("You must add more water in the water tank.");
         }
@@ -53,12 +58,9 @@ public class EspressoCoffeeMachine extends CoffeeMachine{
             throw new CoffeeTypeCupDifferentOfCoffeeTypeTankException("The type of coffee to be made in the cup is different from that in the tank.");
         }
 
-        coffeeMachineFailure();
+        // coffeeMachineFailure();
 
-        if(isOutOfOrder()){
-            logger.warn("The machine is out of order. Please reset the coffee machine");
-            return null;
-        }
+
 
         getElectricalResistance().waterHeating(container.getCapacity());
         getWaterPump().pumpWater(container.getCapacity(), getWaterTank());
