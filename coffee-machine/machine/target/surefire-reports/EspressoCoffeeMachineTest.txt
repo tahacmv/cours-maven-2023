@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: EspressoCoffeeMachineTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.323 s - in EspressoCoffeeMachineTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.411 s - in EspressoCoffeeMachineTest

@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+Test set: CoffeeMachineCucumberFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.55 s <<< FAILURE! - in CoffeeMachineCucumberFunctionalTest
+Make a coffee with a complete coffee machine.A user plug the coffee machine and make a coffee Arabica  Time elapsed: 0.373 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'a coffee machine with 0.10 l of min capacity, 3.0 l of max capacity, 600.0 l per h of water flow for the pump' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("a coffee machine with {double} l of min capacity, {double} l of max capacity, {double} l per h of water flow for the pump")
+public void a_coffee_machine_with_l_of_min_capacity_l_of_max_capacity_l_per_h_of_water_flow_for_the_pump(Double double1, Double double2, Double double3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("a {string} with a capacity of {double}")
+public void a_with_a_capacity_of(String string, Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I plug the machine to electricity")
+public void i_plug_the_machine_to_electricity() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add {int} liter of water in the water tank")
+public void i_add_liter_of_water_in_the_water_tank(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add {double} liter of {string} in the bean tank")
+public void i_add_liter_of_in_the_bean_tank(Double double1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I made a coffee {string}")
+public void i_made_a_coffee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the coffee machine return a coffee mug not empty")
+public void the_coffee_machine_return_a_coffee_mug_not_empty() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("a coffee volume equals to {double}")
+public void a_coffee_volume_equals_to(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("a coffee {string} containing a coffee type {string}")
+public void a_coffee_containing_a_coffee_type(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Make a coffee with a complete coffee machine.A user plug the coffee machine and make a coffee  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'a coffee machine with 0.10 l of min capacity, 3.0 l of max capacity, 600.0 l per h of water flow for the pump' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("a coffee machine with {double} l of min capacity, {double} l of max capacity, {double} l per h of water flow for the pump")
+public void a_coffee_machine_with_l_of_min_capacity_l_of_max_capacity_l_per_h_of_water_flow_for_the_pump(Double double1, Double double2, Double double3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("a {string} with a capacity of {double}")
+public void a_with_a_capacity_of(String string, Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I plug the machine to electricity")
+public void i_plug_the_machine_to_electricity() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add {int} liter of water in the water tank")
+public void i_add_liter_of_water_in_the_water_tank(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add {double} liter of {string} in the bean tank")
+public void i_add_liter_of_in_the_bean_tank(Double double1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I made a coffee {string}")
+public void i_made_a_coffee(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the coffee machine return a coffee mug not empty")
+public void the_coffee_machine_return_a_coffee_mug_not_empty() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("a coffee volume equals to {double}")
+public void a_coffee_volume_equals_to(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("a coffee {string} containing a coffee type {string}")
+public void a_coffee_containing_a_coffee_type(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

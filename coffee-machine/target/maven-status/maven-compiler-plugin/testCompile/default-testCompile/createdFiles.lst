@@ -1,6 +1,6 @@
-fr\imt\coffee\machine\EspressoCoffeeMachineTest.class
+fr\imt\coffee\machine\fr.imt.cours.machine.EspressoCoffeeMachineTest.class
 fr\imt\coffee\machine\cucumber\steps\CucumberStepsCoffeeMachineMakeACoffeeTest.class
 fr\imt\coffee\machine\component\ElectricalResistanceTest.class
 fr\imt\coffee\machine\cucumber\steps\CucumberStepsExpressoCoffeeMachineTest.class
-fr\imt\coffee\machine\CoffeeMachineCucumberFunctionalTest.class
-fr\imt\coffee\machine\CoffeeMachineUnitTest.class
+fr\imt\coffee\machine\fr.imt.cours.machine.CoffeeMachineCucumberFunctionalTest.class
+fr\imt\coffee\machine\fr.imt.cours.machine.CoffeeMachineUnitTest.class

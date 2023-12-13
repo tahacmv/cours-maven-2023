@@ -1,2 +1,5 @@
-EspressoCoffeeMachineTest.class
-CoffeeMachineUnitTest.class
+fr\imt\cours\machine\cucumber\steps\CucumberStepsCoffeeMachineMakeACoffeeTest.class
+fr\imt\cours\machine\CoffeeMachineCucumberFunctionalTest.class
+fr\imt\cours\machine\EspressoCoffeeMachineTest.class
+fr\imt\cours\machine\CoffeeMachineUnitTest.class
+fr\imt\cours\machine\cucumber\steps\CucumberStepsExpressoCoffeeMachineTest.class

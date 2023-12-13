@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: fr.imt.coffee.machine.EspressoCoffeeMachineTest
+Test set: fr.imt.coffee.machine.fr.imt.cours.machine.EspressoCoffeeMachineTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.383 s - in fr.imt.coffee.machine.EspressoCoffeeMachineTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.383 s - in fr.imt.coffee.machine.fr.imt.cours.machine.EspressoCoffeeMachineTest

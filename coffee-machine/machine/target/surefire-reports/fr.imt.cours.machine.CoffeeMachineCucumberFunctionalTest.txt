@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.imt.cours.machine.CoffeeMachineCucumberFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.816 s - in fr.imt.cours.machine.CoffeeMachineCucumberFunctionalTest
